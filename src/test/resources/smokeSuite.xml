@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <test name="Test Suite 1">
+        <classes>
+            <class name="com.tranzfusion.testcases.outward_transaction_test.FiToFiTest"/>
+            <class name="com.tranzfusion.testcases.transaction_authorization_test.TransactionAuthorizationTest"/>
+        </classes>
+    </test>
+    <!-- Suite 2
+    <test name="Test Suite 2">
+        <classes>
+            <class name="com.tranzfusion.testcases.outward_transaction_test.ClientToClientTest"/>
+            <class name="com.tranzfusion.testcases.transaction_authorization_test.TransactionAuthorizationTest"/>
+        </classes>
+    </test>
+
+   Suite 3
+   <test name="Test Suite 3">
+    <classes>
+        <class name="com.tranzfusion.testcases.outward_transaction_test.BatchProcessTest"/>
+        <class name="com.tranzfusion.testcases.transaction_authorization_test.TransactionAuthorizationTest"/>
+    </classes>
+   </test> -->
+
+
+</suite>
